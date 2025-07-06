@@ -1,0 +1,18 @@
+# Learn more about configuring your app at https://shopify.dev/docs/apps/tools/cli/configuration
+
+client_id = "2e384bf3f9f0ab92f8763c655eb8d2c6"
+name = "rosalia-app"
+handle = "rosalia-app"
+application_url = "https://rosalia-app--development.gadget.app/api/shopify/install-or-render"
+embedded = true
+
+[webhooks]
+api_version = "2025-07"
+
+[auth]
+redirect_urls = [
+  "https://rosalia-app--development.gadget.app/api/connections/auth/shopify/callback"
+]
+
+[pos]
+embedded = false
